@@ -122,7 +122,7 @@ class NewsController extends Controller
                 'status_code' => 404
             ], 404);
         }
-
+        
         $news->delete();
         
         return response()->json([
